@@ -8,7 +8,6 @@ URL:		http://checkpasswd-pam.sourceforge.net/
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	pam-devel
 Provides:	checkpassword
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 checkpassword-pam is an implementation of checkpassword-compatible
