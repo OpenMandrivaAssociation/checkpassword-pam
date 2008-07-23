@@ -1,7 +1,7 @@
 Summary:	A checkpassword compatible authentication program
 Name:		checkpassword-pam
 Version:	0.99
-Release:	%mkrel 3
+Release:	%mkrel 5
 License:	GPL
 Group:		System/Servers
 URL:		http://checkpasswd-pam.sourceforge.net/
