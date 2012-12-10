@@ -74,3 +74,40 @@ chmod 644 %{buildroot}%{_sysconfdir}/pam.d/checkpassword-pam
 %attr(644,root,root) %{_mandir}/man8/checkpassword-pam.8*
 
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.99-7mdv2011.0
++ Revision: 616998
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 0.99-6mdv2010.0
++ Revision: 424826
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.99-5mdv2009.0
++ Revision: 243869
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.99-3mdv2008.1
++ Revision: 140692
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - buildrequires obsoletes buildprereq
+
+
+* Fri Jan 26 2007 Oden Eriksson <oeriksson@mandriva.com> 0.99-3mdv2007.0
++ Revision: 113774
+- Import checkpassword-pam
+
+* Fri Jan 26 2007 Oden Eriksson <oeriksson@mandriva.com> 0.99-3mdv2007.1
+- fix pam
+
+* Sun Dec 25 2005 Oden Eriksson <oeriksson@mandriva.com> 0.99-2mdk
+- rebuild
+
+* Sat Nov 13 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 0.99-1mdk
+- 0.99
+
