@@ -4,7 +4,7 @@ Version:	0.99
 Release:	8
 License:	GPL
 Group:		System/Servers
-URL:		http://checkpasswd-pam.sourceforge.net/
+URL:		https://checkpasswd-pam.sourceforge.net/
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	pam-devel
 Provides:	checkpassword
