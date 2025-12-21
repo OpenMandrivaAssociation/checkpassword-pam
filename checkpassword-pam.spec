@@ -6,6 +6,11 @@ License:	GPL
 Group:		System/Servers
 URL:		https://checkpasswd-pam.sourceforge.net/
 Source:		%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pam-devel
 Provides:	checkpassword
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
